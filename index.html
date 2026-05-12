@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .message {
+        color: #000;
+        font-family: sans-serif;
+        width: 400px;
+
+        text-align: center;
+        font-size: 30px;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      h1 {
+        font-size: 70px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      input {
+        border: none;
+        background: #aeaeaee5;
+        width: 200px;
+        height: 30px;
+        border-radius: 30px;
+
+        padding-left: 30px;
+        font-size: 20px;
+      }
+      input:focus{
+        border: none;
+        outline: none;
+      }
+      button {
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 20px;
+        background: blue;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>regEX</h1>
+    <form action="" id="signup-form">
+      <input type="text" placeholder="username" id="username" />
+      <button type="submit">submit</button>
+    </form>
+    <div class="message"></div>
+    <!-- JS -->
+    <script src="./app.js"></script>
+  </body>
+</html>
