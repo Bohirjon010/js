@@ -1,4 +1,4 @@
-const signupForm = document.querySelector("#signup-form");
+const signupForm = document.querySelector("#signup-form".trim());
 
 const message = document.querySelector(".message");
 
